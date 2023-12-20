@@ -1,0 +1,1 @@
+print("".join([f".{x}".lower() for x in input() if x.lower() not in ["a", "e", "i", "o", "u", "y"]]))
